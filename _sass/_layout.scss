@@ -1,80 +1,53 @@
-header {
-	height: 100px;
-	display: flex;
-	background-color: #1E1E1E;
-	opacity: 0.85;
-    .title {
-		margin: auto 0 auto 35px;
-		color: white;
-		font-weight: bold;
-		letter-spacing: 5px;
-		font-size: $big-font;
-		
-	}
-}
-
-main {
-	@media screen and (min-width: $on-palm) {
-        display: flex;
-    }
-	
-	aside {
-		flex: 1;
-		@media screen and (max-width: $on-palm) {
-			display: none;
-		}
-	}
-	section {
-		flex: 3;
-	}
-}
-
-footer {
-	background: black;
-	color: white;
-	@media screen and (min-width: $on-palm) {
-		display: flex;
-	}
-
-	.list-contact {
-		flex: 1;
-		@media screen and (min-width: $on-palm) {
-			display: flex;
-		}
-		margin: auto auto;
-		line-height: 1.8;
-
-		a{
-			&:visited, &:active {
-				color: white;
-			}
-		}
-
-		li, a, i {
-			color: white;
-			&:hover {
-				color: $secondary-color;
-				@media screen and (max-width: $on-palm) {
-					color: white;
-				}
-			}
-		}
-	}
-
-	.description {
-		flex: 2;
-		margin: auto auto;
-		padding: 15px;
-		text-align: justify;
-		flex-direction: column;
-		h3 {
-			margin-bottom: 10px;
-			color: $secondary-color;
-		}
-	}
+html {
+	width: 100%;
 }
 
 body {
-	max-width: 1010px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 1280px;
 	margin: 0 auto;
+	/*@media screen and (min-width: $on-palm) {
+		
+	}*/
+	font-family: $base-font;
+	font-size: $base-font-size;
+
+	> header {
+		font-family: $bold-font;
+		height: 70px;
+    font-size: 30px;
+	}
+	
+	main {
+		display: flex;
+		aside {
+			flex: 1;
+		}
+		> section {
+			flex: 3;
+			min-width: 0;
+			border-left: 1px solid silver;
+			.articles-list {
+				border-top: 1px solid silver;
+			}
+		}
+	}
+}
+
+a {
+	color: $base-text-color;
+	&:visited {
+		color: $base-text-color;
+	}
+	&:hover {
+		color: $secondary-text-color;
+	}
+}
+
+div.divider {
+	border-top: 1px #E0E0E0 solid;
+	margin: 10px 0px;
+	flex: 1;
 }

@@ -1,0 +1,15 @@
+.icon-category {
+  .icon {
+    background-color: $secondary-text-color;
+    width: 45px;
+    height: 45px;
+    margin: auto;
+
+    &.code {
+      background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MCA0MCI+PHN0eWxlIHR5cGU9InRleHQvY3NzIj4jY29kZS1pY29uIHtzdHJva2U6IHdoaXRlO3N0cm9rZS13aWR0aDogNHB4O2ZpbGw6IG5vbmU7fTwvc3R5bGU+PGcgaWQ9ImNvZGUtaWNvbiI+PHBhdGggZD0iTSAxNSA4IEwgNSAyMCBMIDE1IDMyICIgLz48cGF0aCBkPSJNIDI1IDggTCAzNSAyMCBMIDI1IDMyICIgLz48L2c+PC9zdmc+');
+      background-size: 30px 30px;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+  }
+}

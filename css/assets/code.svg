@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <style type="text/css">
+    #code-icon {
+      stroke: white;
+      stroke-width: 4px;
+      fill: none;
+    }
+  </style>
+  <g id="code-icon">
+    <path d="M 15 8 L 5 20 L 15 32 " />
+    <path d="M 25 8 L 35 20 L 25 32 " />
+  </g>
+</svg>
