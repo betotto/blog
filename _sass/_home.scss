@@ -1,0 +1,58 @@
+article.post {
+	display: flex;
+	margin: 15px 0;
+	background-color: $body-back;
+	flex-direction: column;
+
+	.title {
+		font-size: $title-font;
+		color: black;
+		font-weight: 600;
+		text-decoration: none;
+		background-color: white;
+		text-align: center;
+		padding: 10px 0px;
+		&:visited {
+			color: black;
+		}
+		&:hover, &:active {
+			color: $secondary-color;
+		}
+		@media screen and (max-width: $on-palm) {
+			color: $secondary-color;
+			&:hover, &:active, &:visited {
+				color: $secondary-color;
+			}
+		}
+	}
+
+	.date {
+		font-size: $small-font;
+		color: $ligth-gray; 
+		font-style: italic;
+		background-color: white;
+		text-align: center;
+		padding: 5px 0px;
+	}
+
+	.excerpt {
+		background-color: white;
+		padding: 5px 20px;
+		text-align: justify;	
+	}
+
+	.tags-list {
+		padding: 5px 0px 15px 15px;
+		background-color: white;
+		text-align: left;
+		.tag {
+			font-size: $title-font;
+			font-size: $small-font;
+			color: $secondary-color;
+			&::before {
+				content: "\2022";
+			}
+		}	
+	}
+}
+
