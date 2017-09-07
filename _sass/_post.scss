@@ -54,6 +54,7 @@ article.post {
       width: 100%;
       display: inline-block;
       overflow-x: scroll;
+      margin-bottom: 10px;
     }
 
     h3 {
@@ -86,6 +87,7 @@ article.post {
       background-color: unset;
       border: 0;
       font-family: $thin-font;
+      padding: 10px 0;
       font-size: 1rem;
       &:hover {
         cursor: pointer;
