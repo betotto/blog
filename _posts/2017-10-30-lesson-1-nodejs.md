@@ -52,4 +52,4 @@ The project will be in [Github](https://github.com/betotto/nodejscourse).
 
 # Help me
 
-If you have any recomendation or english grammar correction please write it here: **[blog issues](https://github.com/betotto/blog/issues)**.
+If you have any recomendation or english grammar correction please write it here:  **[blog issues](https://github.com/betotto/blog/issues)**.

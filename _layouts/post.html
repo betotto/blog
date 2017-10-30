@@ -19,12 +19,12 @@ layout: default
 
 	<div class="buttons">
   		{% if page.previous.url %}
-    		<button class="prev" onclick="document.location='{{page.previous.url}}'">
+    		<button class="prev" onclick="document.location.href='{{ page.previous.url | prepend: site.baseurl }}'">
 				&laquo; {{page.previous.title}}
 			</button>
   		{% endif %}
   		{% if page.next.url %}
-    		<button class="next" onclick="document.location='{{page.next.url}}'">
+    		<button class="next" onclick="document.location='{{ page.previous.url | prepend: site.baseurl }}'">
 				{{page.next.title}} &raquo;
 			</button>
   		{% endif %}
