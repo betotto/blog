@@ -6,8 +6,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	max-width: 1280px;
-	margin: 0 auto;
 	/*@media screen and (min-width: $on-palm) {
 		
 	}*/
@@ -16,12 +14,17 @@ body {
 
 	> header {
 		font-family: $bold-font;
+		width: 100%;
 		height: 70px;
-    font-size: 30px;
+		font-size: 30px;
+		position: fixed;
+		top: 0px;
 	}
 	
 	main {
 		display: flex;
+		max-width: 1280px;
+		margin: 70px auto 0 auto;
 		aside {
 			flex: 1;
 		}
