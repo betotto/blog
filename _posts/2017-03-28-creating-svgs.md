@@ -33,7 +33,7 @@ I have Visual Studio Code installed in my computer and I included a plugin **[SV
 </svg>
 ```
 
-One note: even if I going to use this image as code, it's important to save the code in a file, in case that you want to modify it later, I named my image as *code.svg*, once you have your own image or the previous one, we can use the Buffer class from NodeJS to convert it to a base64 string, you need a javascript file like *buffersvg.js* and paste the next code:
+One note: even if I going to use this image as code, it's important to save the code in a file, in case that you want to modify it later I named my image as *code.svg*, once you have your own image or the previous one, we can use the Buffer class from NodeJS to convert it to a base64 string, you need a javascript file like *buffersvg.js* and paste the next code:
 
 ```javascript
 const fs = require('fs');
@@ -65,4 +65,4 @@ That's it, now you can include the base64 string in any element of HTML as backg
 
 ### Help me
 
-I'm writing to remember important things from my job as well as to share the little things that I consider important, as you can read I'm not a native speaker so if you notice any error in grammar or code I'll correct it. Please let me now in the issues section of this little project **[blog issues](https://github.com/betotto/blog/issues)**.
+I'm writing to remember important things from my job as well as to share the little things that I consider important, as you can read I'm not a native speaker so if you identify any error in grammar or code I'll correct it. Please let me now in the issues section of this little project **[blog issues](https://github.com/betotto/blog/issues)**.
