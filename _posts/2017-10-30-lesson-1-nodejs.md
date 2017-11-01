@@ -12,7 +12,7 @@ The first thing that we have to think about in any new project, it's the objecti
 
 We decided to create a little project trying to build a Chat application, following the best practices in javascript and Nodejs.
 
-## Dependencies
+## Prerequisites
 
 - Node js >= 8.0.0
 - Text editor or IDE
