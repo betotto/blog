@@ -24,7 +24,7 @@ layout: default
 			</button>
   		{% endif %}
   		{% if page.next.url %}
-    		<button class="next" onclick="document.location='{{ page.previous.url | prepend: site.baseurl }}'">
+    		<button class="next" onclick="document.location='{{ page.next.url | prepend: site.baseurl }}'">
 				{{page.next.title}} &raquo;
 			</button>
   		{% endif %}
