@@ -138,6 +138,12 @@ $ npm install --save-dev less
 
 And try to modify any js file in our project and save it.
 
+### Final result
+
+The project has been updated, find the commit for lesson 2 and you will get all the changes mentioned here.
+
+[Lesson 2 - Adding CSS and restart](https://github.com/betotto/nodejscourse/commit/a0f7b94b534225f8bd537716fc31cc54656e8778)
+
 # Reminder
 
 If you have any recommendation or English grammar correction please write it here:  **[blog issues](https://github.com/betotto/blog/issues)**.
