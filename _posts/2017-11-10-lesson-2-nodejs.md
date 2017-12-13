@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Lesson 2 Adding CSS and restart development
-date: 2017-10-30 12:00:00 -0700
+date: 2017-11-10 12:00:00 -0700
 icon: code
 tags: nodejs
 ---
