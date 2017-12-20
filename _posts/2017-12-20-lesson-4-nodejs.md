@@ -20,7 +20,7 @@ There is a lot of things to do to create the chat, but one of the most important
 
 When we're working with SQL databases one of the firsts steps is to define the data model, so we will working on the chat session model, with two events create and close and for that we will use the next data model:
 
-
+![alt text](https://betotto.github.io/blog/css/assets/chatDB_1.png "Request Process")
 
 ## Installing dependencies
 
