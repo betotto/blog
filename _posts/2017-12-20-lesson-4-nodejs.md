@@ -39,9 +39,7 @@ $ npm install --save fastify-plugin mysql
 
 The way that we will handle the requests in this project will be like this:
 
-<div class="image-request-process">
-</div>
-
+![alt text](https://betotto.github.io/blog/css/assets/Request.png "Request Process")
 For every request it will be processed by the routes in every model, in the routes file every input data will be validated and formatted as well as the output data. The route can call one or many controller functions, but the login inside routes should be only:
 
 - Routing controllers between modules.
