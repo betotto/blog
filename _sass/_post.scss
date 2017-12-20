@@ -50,6 +50,14 @@ article.post {
       text-align: justify;
     }
 
+    img {
+      max-width: 80%;
+    }
+
+    p:has(> img) {
+      text-align: center;
+    }
+
     code {
       width: 100%;
       display: inline-block;

@@ -20,7 +20,7 @@ There is a lot of things to do to create the chat, but one of the most important
 
 When we're working with SQL databases one of the firsts steps is to define the data model, so we will working on the chat session model, with two events create and close and for that we will use the next data model:
 
-![alt text](https://betotto.github.io/blog/css/assets/chatDB_1.png "Request Process")
+![Chat ER](https://betotto.github.io/blog/css/assets/chatDB_1.png "Chat ER"){:class="img-content"}
 
 ## Installing dependencies
 
@@ -39,7 +39,7 @@ $ npm install --save fastify-plugin mysql
 
 The way that we will handle the requests in this project will be like this:
 
-![Request Process](/blog/css/assets/Request.png){:class="image-show"}
+![Request Process](https://betotto.github.io/blog/css/assets/Request.png "Request Process"){:class="img-content"}
 
 For every request it will be processed by the routes in every model, in the routes file every input data will be validated and formatted as well as the output data. The route can call one or many controller functions, but the login inside routes should be only:
 
