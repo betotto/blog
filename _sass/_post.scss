@@ -48,14 +48,12 @@ article.post {
       text-indent: 20px;
       margin-bottom: 15px;
       text-align: justify;
+      display: block;
     }
 
     img {
       max-width: 80%;
-    }
-
-    p:has(> img) {
-      text-align: center;
+      display: block;
     }
 
     code {
