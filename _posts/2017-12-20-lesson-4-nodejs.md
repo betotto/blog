@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Lesson 4 Configuring database
-date: 2017-12-13 12:00:00 -0700
+date: 2017-12-20 12:00:00 -0700
 icon: chat
 tags: nodejs
 ---
@@ -38,6 +38,9 @@ $ npm install --save fastify-plugin mysql
 ## Defining the HTTP request handle process
 
 The way that we will handle the requests in this project will be like this:
+
+<div class="image-request-process">
+</div>
 
 For every request it will be processed by the routes in every model, in the routes file every input data will be validated and formatted as well as the output data. The route can call one or many controller functions, but the login inside routes should be only:
 
@@ -192,7 +195,7 @@ module.exports = {
 };
 ```
 
-5. Registering endpoints
+6. Registering endpoints
 
 In the index.js file we need to include 1, 2, 3 and 4 lines between the the 5 and 6 lines (that exist) to register the endpoints:
 
@@ -218,6 +221,9 @@ In the index.js file we need to include 1, 2, 3 and 4 lines between the the 5 an
 
 Now we have two endpoints:
 
+___
+
+
 GET localhost:3000/session/init-session
 
 ___
@@ -225,6 +231,7 @@ ___
 POST localhost:3000/session/close-session
 
 idSession
+
 ___
 
 # Reminder
