@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Managing Events
-date: 2017-12-20 12:00:00 -0700
+date: 2017-12-27 12:00:00 -0700
 icon: chat
 tags: nodejs
 ---
