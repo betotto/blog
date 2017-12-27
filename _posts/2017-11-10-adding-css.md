@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lesson 2 Adding CSS and restart development
+title: Adding CSS and restart development
 date: 2017-11-10 12:00:00 -0700
 icon: code
 tags: nodejs
@@ -8,7 +8,7 @@ tags: nodejs
 
 # Adding CSS and restart development
 
-In this lesson we gonna add [Less](http://lesscss.org/) for preprocessing our CSS also we'll include [Nodemon](https://nodemon.io/) to the development process.
+We gonna add [Less](http://lesscss.org/) for preprocessing our CSS also we'll include [Nodemon](https://nodemon.io/) to the development process.
 
 ## Prerequisites
 

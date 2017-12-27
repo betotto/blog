@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lesson 3 Eslint
+title: Adding Eslint
 date: 2017-12-13 12:00:00 -0700
 icon: code
 tags: nodejs

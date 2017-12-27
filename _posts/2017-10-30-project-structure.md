@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Lesson 1 Nodejs course
+title: Project Structure
 date: 2017-10-30 12:00:00 -0700
 icon: code
 tags: nodejs
 ---
 
-# Project structure
+# Project Structure
 
 The first thing that we have to think about in any new project, it's the objective that we want to achieve. So discussing with friends, I'm starting a course (I hope that I can release one lesson per week), to practice and enjoy Nodejs.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lesson 4 Configuring database
+title: Configuring database
 date: 2017-12-20 12:00:00 -0700
 icon: chat
 tags: nodejs
@@ -14,7 +14,7 @@ There is a lot of things to do to create the chat, but one of the most important
  
 - You need a Mysql engine where you have the DBA role.
 - All the previous lessons
-- Create the database script for reproduce the entity relation model.
+- Create the database script to reproduce the entity relation model.
 
 # Adding Mysql to the project
 
@@ -47,11 +47,11 @@ For every request it will be processed by the routes in every model, in the rout
 - Format input/output data.
 - Validate input/output data.
 
-Each controller function can execute database querys, consume external services or apply any logic required to generate the output, a controller can call other controllers only of the same module. Once we have the output required, the router will send the output to the client.
+Each controller function can execute database queries, consume external services or apply any logic required to generate the output, a controller can call other controllers only of the same module. Once we have the output required, the router will send the output to the client.
 
 ## Configuring database
 
-One of the greatest things in fastify are the plugins, it allows us to easily share objects or data between endpoints, we will have a module called database with all the querys of the application and the MySQL plugin.
+One of the greatest things in fastify are the plugins, it allows us to easily share objects or data between endpoints, we will have a module called database with all the queries of the application and the MySQL plugin.
 
 1. Add MySQL parameters
 
@@ -75,9 +75,9 @@ module.exports = {
 
 We will keep two connections in the pool per nodejs instance.
 
-2. Create the querys
+2. Create the queries
 
-Create a file in modules/database called **querys.json** that will contain all the querys of the application, this is useful for the dba and for us.
+Create a file in modules/database called **querys.json** that will contain all the queries of the application, this is useful for the dba and for us.
 
 ```json
 {
@@ -196,7 +196,7 @@ module.exports = {
 
 6. Registering endpoints
 
-In the index.js file we need to include 1, 2, 3 and 4 lines between the the 5 and 6 lines (that exist) to register the endpoints:
+In the index.js file we need to include 1, 2, 3 and 4 lines between the 5 and 6 lines (that exist) to register the endpoints:
 
 ```javascript
 ...
