@@ -6,8 +6,6 @@ icon: chat
 tags: nodejs
 ---
 
-# Configuring database
-
 There is a lot of things to do to create the chat, but one of the most important things is to store the information that the chat will generate. We gonna include [Mysql](https://www.mysql.com/) as primarly database.
 
 # Prerequisites

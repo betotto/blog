@@ -1,63 +1,59 @@
-html {
-	width: 100%;
+.mobile {
+  display: none;
 }
 
-body {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	/*@media screen and (min-width: $on-palm) {
-		
-	}*/
-	font-family: $base-font;
-	font-size: $base-font-size;
+.no-mobile {
+  display: block;
+}
 
-	> header {
-		font-family: $bold-font;
-		width: 100%;
-		height: 70px;
-		font-size: 30px;
-		position: fixed;
-		top: 0px;
-	}
-	
-	main {
-		display: flex;
-		max-width: 1280px;
-		margin: 70px auto 0 auto;
-		aside {
-			flex: 1;
-		}
-		> section {
-			flex: 3;
-			min-width: 0;
-			border-left: 1px solid silver;
-			.articles-list {
-				border-top: 1px solid silver;
+body, html {
+ width: 100%;
+ height: 100%;
+ min-height: 100%;
+}
+
+body > aside {
+	width: 30%;
+	height: 100%;
+	float: left;
+	background-color: $gray;
+	color: $secondary-gray;
+	font-family: $base-font;
+	h1 {
+		text-align: center;
+		a {
+			text-decoration: none;
+			color: white;
+			font-family: $bold-font;
+			text-align: center;
+			&:visited{
+				color: white;
+				font-family: $bold-font;
+			}
+			&:hover{
+				cursor: pointer;
 			}
 		}
 	}
-}
 
-a {
-	color: $base-text-color;
-	&:visited {
-		color: $base-text-color;
-	}
-	&:hover {
-		color: $secondary-text-color;
+	p {
+		text-align: justify;
+    padding: 0 5%;
 	}
 }
 
-div.divider {
-	border-top: 1px #E0E0E0 solid;
-	margin: 10px 0px;
-	flex: 1;
+body > main {
+	width: 70%;
+	height: 100%;
+	float: right;
+	overflow-y: scroll;
 }
 
-h4 { 
-	margin-bottom: 8px;
-} 
-h2 {
-	margin-bottom: 10px;
+.material-icons {
+  background-color: $secondary;
+  color: white;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  font-size: 30px;
 }

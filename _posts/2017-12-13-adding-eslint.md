@@ -6,8 +6,6 @@ icon: code
 tags: nodejs
 ---
 
-# Adding Eslint
-
 With this lesson our environment will be ready to start any nodejs application that we want, It includes:
 
 - Template engine

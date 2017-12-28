@@ -4,12 +4,10 @@ layout: default
 
 <article class="post">
 	<div class="date">{{ page.date | date: "%b %-d, %Y" }}</div>
-	<header>
-		<div class="icon-category">
-			<div class="icon {{page.icon}}"></div>
-		</div>
-		<b>{{ page.title }}</b>
-	</header>
+	<div class="header">
+		<i class="material-icons">{{page.icon}}</i>
+		<b><a class="title" href="#">{{ page.title }}</a></b>
+	</div>
 
 	<div class="divider" />
 	
@@ -18,16 +16,16 @@ layout: default
 	</div>
 
 	<div class="buttons">
-  		{% if page.previous.url %}
-    		<button class="prev" onclick="document.location.href='{{ page.previous.url | prepend: site.baseurl }}'">
+		{% if page.previous.url %}
+			<button class="prev" onclick="document.location.href='{{ page.previous.url | prepend: site.baseurl }}'">
 				&laquo; {{page.previous.title}}
 			</button>
-  		{% endif %}
-  		{% if page.next.url %}
-    		<button class="next" onclick="document.location='{{ page.next.url | prepend: site.baseurl }}'">
+		{% endif %}
+		{% if page.next.url %}
+			<button class="next" onclick="document.location='{{ page.next.url | prepend: site.baseurl }}'">
 				{{page.next.title}} &raquo;
 			</button>
-  		{% endif %}
+		{% endif %}
 	</div>
 
 </section>

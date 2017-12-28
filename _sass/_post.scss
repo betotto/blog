@@ -3,8 +3,12 @@ article.post {
   flex-direction: column;
   padding: 20px;
 
-  header {
-    height: 50px;
+  border: 1px solid $gray;
+  margin: 15px;
+  border-radius: 20px;
+
+  .header {
+    height: 40px;
     display: flex;
     flex: 1;
     
@@ -19,6 +23,12 @@ article.post {
       font-size: 1.5rem;
       a {
         text-decoration: none;
+        font-family: $bold-font;
+        margin-left: 40px;
+        color: $secondary;
+        &:visited {
+          color: $secondary;
+        }
       }
     }
     
@@ -28,7 +38,7 @@ article.post {
     flex: 1;
     font-family: $thin-font;
     margin: auto 0;
-    text-align: left;
+    text-align: right;
     margin: 10px 25px;
   }
 
@@ -36,6 +46,8 @@ article.post {
     flex: 1;
     margin: 20px;
     p {
+      text-align: justify;
+      font-family: $base-font;
       font-size: 1rem;
     }
   }
@@ -64,8 +76,20 @@ article.post {
       margin-bottom: 10px;
     }
 
-    h3 {
+    h1 {
       font-family: $bold-font;
+      margin-bottom: 15px;
+      font-size: 1.7rem;
+    }
+
+    h2 {
+      font-family: $base-font;
+      margin-bottom: 15px;
+      font-size: 1.5rem;
+    }
+
+    h3 {
+      font-family: $thin-font;
       margin-bottom: 15px;
       font-size: 1.5rem;
     }
@@ -88,9 +112,9 @@ article.post {
   
   .buttons {
     flex: 1;
-    .read-more {
+    .read-more, .prev, .next {
       width: 150px;
-      color: $secondary-text-color;
+      color: $secondary;
       background-color: unset;
       border: 0;
       font-family: $thin-font;
@@ -98,10 +122,16 @@ article.post {
       font-size: 1rem;
       &:hover {
         cursor: pointer;
-        background-color: $secondary-text-color;
+        background-color: $secondary;
         color: white;
         border-radius: 5px;
       }
+    }
+    .prev {
+      float: left;
+    }
+    .next {
+      float: right;
     }
   }
 }

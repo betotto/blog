@@ -10,8 +10,8 @@ title: BETOTTO
 email: gtottog@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Enthusiast of new technologies, I like to develop and design 
-  apps for Mobile/Web Platforms, integrating IoT (Internet of Things),
-  using new Technologies (java, javascript and web).
+  apps for Mobile/Web Platforms, integrating Internet of Things when possible,
+  using new Technologies in java, javascript and web.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://betotto.github.io/blog/" # the base hostname & protocol for your site
 github_username:  betotto

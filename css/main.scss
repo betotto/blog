@@ -7,14 +7,16 @@ $base-font: 'Roboto', sans-serif;
 $thin-font: 'Open Sans Condensed', sans-serif;
 $bold-font: 'Baloo Bhaijaan', cursive;
 $base-font-size: 14px;
-$base-text-color: black;
-$secondary-text-color: rgb(216, 141, 41);
-
-$on-phone: 500px; 
-$on-tablet: 800px;
+$base-text: black;
+$gray: #404E5B;
+$secondary-gray: #A1BED2;
+$secondary: rgb(216, 141, 41);
 
 @import "base";
 @import "code";
-@import "icons";
 @import "layout";
 @import "post";
+
+@media screen and (max-width: 500px) {
+  @import "mobile";
+}

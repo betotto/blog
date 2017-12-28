@@ -2,7 +2,7 @@
 layout: post
 title: Creating SVGs for CSS
 date: 2017-08-25 12:00:00 -0700
-icon: code
+icon: border_color
 tags: CSS
 ---
 

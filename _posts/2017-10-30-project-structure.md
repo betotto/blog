@@ -6,8 +6,6 @@ icon: code
 tags: nodejs
 ---
 
-# Project Structure
-
 The first thing that we have to think about in any new project, it's the objective that we want to achieve. So discussing with friends, I'm starting a course (I hope that I can release one lesson per week), to practice and enjoy Nodejs.
 
 We decided to create a little project trying to build a Chat application, following the best practices in javascript and Nodejs.

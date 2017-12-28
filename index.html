@@ -5,19 +5,16 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
       <div class="date">{{ post.date | date: "%b %-d, %Y" }}</div>
-      <header>
-        <div class="icon-category">
-          <div class="icon {{post.icon}}"></div>
-        </div>
+      <div class="header">
+        <i class="material-icons">{{post.icon}}</i>
         <b><a class="title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></b>
-      </header>
+      </div>
       
       <div class="excerpt">{{post.excerpt}}</div>
       <div class="buttons">
-        <button class="read-more" onclick="document.location='{{ post.url | prepend: site.baseurl }}'">Continue reading...</button>
+        <button class="read-more" onclick="document.location='{{ post.url | prepend: site.baseurl }}'">View complete...</button>
       </div>
 
-      <div class="divider" />
     </article>
   {% endfor %}
 

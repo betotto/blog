@@ -6,8 +6,6 @@ icon: chat
 tags: nodejs
 ---
 
-# Managing events
-
 The first approach of the chat, will be using long polling requests because in many companies they have very complex network systems, so they don't allow open sockets between the browser and the servers. Long polling is widely used and it doesn't mean that is bad as everything it has advantages and disadvantages, [here](http://dsheiko.com/weblog/websockets-vs-sse-vs-long-polling) is a good explanation for it with some examples.
 
 # Prerequisites
