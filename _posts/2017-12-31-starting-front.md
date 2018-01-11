@@ -21,7 +21,7 @@ The next command will install all the dependencies that we need:
 ```bash
 $ npm install --save-dev babel-core babel-loader babel-preset-es2015 memory-fs preact ramda redux webpack
 ```
-We will not use Redux and Ramda yet, but is ok to install them now. These are dev dependencies, only needed to build and develop the dependencies.
+We will not use Redux and Ramda yet but is ok to install them now. These are dev dependencies, only needed to build and develop the dependencies.
 
 ## Moving files
 
@@ -212,7 +212,7 @@ const configApp = (fastify) => {
 module.exports = configApp;
 ```
 
-And finally I moved the modules/database/plugins.js to modules/plugins/database.js
+And finally, I moved the modules/database/plugins.js to modules/plugins/database.js
 
 ## Creating the view containers
 
@@ -250,7 +250,7 @@ const BasePage = (props, children) => h('html', {}, [
 module.exports = BasePage;
 ```
 
-It will show the Menu component and the children that It has, with that we don't have to incldue the Menu and the basic structure on each Page. So we can create **homPage.html.js**
+It will show the Menu component and the children that It has, with that we don't have to include the Menu and the basic structure on each Page. So we can create **homPage.html.js**
 
 ```javascript
 const h = require('hyperscript');
@@ -339,9 +339,9 @@ Check that we're not exposing the Menu, because is a Component, not a Page. The 
 
 ## Adding SPA capabilities
 
-We have the skeletons of the pages, but this is a chat application, so reloading all the content will not be a good idea, so we need a SPA (Simple Page Application), to handle all the more dynamic parts of the app.
+We have the skeletons of the pages, but this is a chat application, so reloading all the content will not be a good idea, so we need an SPA (Simple Page Application), to handle all the more dynamic parts of the app.
 
-If you check the modules/utils.js file you'll see a webpack configuration, and its working on the fly, I will not explain that, because it's for another time, you just have to know that that is the responsible of compiling the SPA content.
+If you check the modules/utils.js file you'll see a webpack configuration, and its working on the fly, I will not explain that, because it's for another time, you just have to know that that is the responbibility of compiling the SPA content.
 
 I added a route in modules/index.js that contains the route to **app.js** from the browser and calls the webpack compiler.
 
