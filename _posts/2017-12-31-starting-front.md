@@ -7,9 +7,7 @@ icon: chat
 tags: nodejs
 ---
 
-# Starting with the UI
-
-Now we move to the UI, one of my favorite things and we will use [Preact](https://preactjs.com), for all our components, basically is React Api smaller and faster, like many people say "The same but Different".
+Now we move to the UI, one of my favorite things is [Preact](https://preactjs.com) and we will use it for all our components in front, basically is React Api smaller and faster, like many people say "The same but Different".
 
 # Prerequisites
  
